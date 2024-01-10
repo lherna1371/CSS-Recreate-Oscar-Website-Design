@@ -1,0 +1,35 @@
+main {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.main-section-header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.main-content-card {
+    /* outline: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.card-image, .card-content {
+    width: 48%;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.card-content a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #5152ff;
+}
+
+.main-content-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
